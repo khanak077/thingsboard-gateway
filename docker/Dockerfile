@@ -1,3 +1,11 @@
+FROM python:3.8-slim-buster
+
+RUN apt-get update && apt-get install -y nginx
+
+COPY tb_gateway.yaml /thingsboard_gateway/config/tb_gateway.yml
+
+
+
 FROM python:3.10-slim
 ADD ./ /
 RUN echo '#Main start script\n\
