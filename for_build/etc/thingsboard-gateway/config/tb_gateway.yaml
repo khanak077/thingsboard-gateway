@@ -1,13 +1,13 @@
 thingsboard:
-  host: thingsboard.cloud
-  port: 1883
+  host: demo.thingsboard.io
+  port: 443
   remoteShell: false
   remoteConfiguration: false
   statsSendPeriodInSeconds: 3600
   minPackSendDelayMS: 0
   checkConnectorsConfigurationInSeconds: 60
   security:
-    accessToken: jl67DQyjb5LLYsIoz2GA
+    accessToken: a2TpRSLS1TxD9P2TeTWo
   qos: 1
 storage:
   type: memory
