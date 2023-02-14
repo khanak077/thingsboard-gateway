@@ -1,6 +1,6 @@
 thingsboard:
   host: thingsboard.cloud
-  port: 1883
+  port: 443
   remoteShell: false
   remoteConfiguration: false
   statsSendPeriodInSeconds: 3600
