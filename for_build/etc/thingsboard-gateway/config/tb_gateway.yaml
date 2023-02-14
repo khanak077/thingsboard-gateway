@@ -1,6 +1,6 @@
 thingsboard:
-  host: thingsboard.cloud
-  port: 443
+  host: https://demo.thingsboard.io/devices
+  port: 80
   remoteShell: false
   remoteConfiguration: false
   statsSendPeriodInSeconds: 3600
