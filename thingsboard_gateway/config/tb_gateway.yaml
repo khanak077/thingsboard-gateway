@@ -20,7 +20,7 @@ thingsboard:
     inactivityTimeoutSeconds: 120
     inactivityCheckPeriodSeconds: 10
   security:
-    accessToken: PUT_YOUR_GW_ACCESS_TOKEN_HERE
+    accessToken: jl67DQyjb5LLYsIoz2GA
   qos: 1
 storage:
   type: memory
